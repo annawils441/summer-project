@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px; 
+    background-color: #caf0f8;
+}
+
+.table {
+    width: 75%;
+    height: 55%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.timetable_main td {
+    text-align: center;
+}
+
+.column1 {
+    background-color: #03045E;
+    color: white;
+}
+
+.column2 {
+    background-color: #0077b6;
+    color: white;
+}
+
+.grade1 {
+    background-color: #63C5DA;
+}
+
+.grade2 {
+    background-color: #48aaad;
+}
+
+.grade3 {
+    background-color: #016064;
+}
+
+.grade4 {
+    background-color: #151e3d;
+}
+
+.grade5 {
+    background-color: #0492c2;
+}
+
+.back_button {
+    background-color: #00cec8;
+    border: 3px solid black;
+    color: black;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    font-size: 1.3em
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: purple;
+}

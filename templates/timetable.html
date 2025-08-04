@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Timetable</title>
+        <link rel="stylesheet" href="static/css/styles.css">
+    </head>
+    <body>
+        <header>
+            <div class="topnav">
+                <a class="option" href="http://127.0.0.1:5000">Home</a>
+                <a class="option" href="http://127.0.0.1:5000/login">Login</a>
+                <a class="option" href="http://127.0.0.1:5000/register">Register</a>
+                <a class="active" href="http://127.0.0.1:5000/timetable">Timetable</a>
+                <hr>
+            </div>
+        </header>
+
+        <h1 id="timetable_title">Main Timetable:</h1>
+
+        <div class="timetable_main">
+            <table class="table">
+                <tr>
+                    <th class="column1">Time</th>
+                    <th class="column2" id="monday">Monday</th>
+                    <th class="column1" id="wednesday">Wednesday</th>
+                    <th class="column2" id="friday">Friday</th>
+                    <th class="column1" id="saturday">Saturday</th>
+                </tr>
+                <tr>
+                    <td class="column1" id="2-3pm">2-3pm</td>
+                    <td class="column2"></td>
+                    <td class="column1"></td>
+                    <td class="column2"></td>
+                    <td class="column1 5-CoachB">5 - Coach B</td>
+                </tr>
+                <tr>
+                    <td class="column1" id="3-4pm">3-4pm</td>
+                    <td class="column2"></td>
+                    <td class="column1"></td>
+                    <td class="column2"></td>
+                    <td class="column1 1-CoachA">1 - Coach A</td>
+                </tr>
+                <tr>
+                    <td class="column1" id="4-5pm">4-5pm</td>
+                    <td class="column2 1-CoachA">1 - Coach A</td>
+                    <td class="column1 4-CoachD">4 - Coach D</td>
+                    <td class="column2 2-CoachB">2 - Coach B</td>
+                    <td class="column1"></td>
+                </tr>
+                <tr>
+                    <td class="column1" id="5-6pm">5-6pm</td>
+                    <td class="column2 2-CoachB">2 - Coach B</td>
+                    <td class="column1 5-CoachB">5 - Coach B</td>
+                    <td class="column2 3-CoachC">3 - Coach C</td>
+                    <td class="column1"></td>
+                </tr>
+                <tr>
+                    <td class="column1" id="6-7pm">6-7pm</td>
+                    <td class="column2 3-CoachC">3 - Coach C</td>
+                    <td class="column1 1-CoachA">1 - Coach A</td>
+                    <td class="column2 4-CoachD">4 - Coach D</td>
+                    <td class="column1"></td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="dropdown">
+            <span>Filters:</span>
+            <div class="dropdown_content">
+                <a href="http://127.0.0.1:5000/timetable/coach">Coach</a>
+                <a href="http://127.0.0.1:5000/timetable/day">Day</a>
+                <a href="http://127.0.0.1:5000/timetable/grade">Grade</a>
+            </div>
+        </div>
+
+    </body>
+
+</html>
