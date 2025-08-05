@@ -26,3 +26,43 @@ a:hover {
 a:visited {
     color: purple;
 }
+
+.table {
+    width: 75%;
+    height: 55%;
+}
+
+.table td {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.column1 {
+    background-color: #03045E;
+    color: white;
+}
+
+.column2 {
+    background-color: #0077b6;
+    color: white;
+}
+
+.grade1 {
+    background-color: #63C5DA;
+}
+
+.grade2 {
+    background-color: #48aaad;
+}
+
+.grade3 {
+    background-color: #016064;
+}
+
+.grade4 {
+    background-color: #151e3d;
+}
+
+.grade5 {
+    background-color: #0492c2;
+}
