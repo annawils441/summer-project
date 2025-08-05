@@ -36,6 +36,10 @@ def timetable_day():
 def timetable_grade():
     return render_template('timetable-grade.html')
 
+@app.route('/secret')
+def halloween_page():
+    return render_template('halloween.html')
+
 if __name__ == '__main__':
     app.run(debug=True)
 
