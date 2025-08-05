@@ -17,6 +17,10 @@ a {
 .topnav a {
     color: white;
 }
+
+.topnav a:hover {
+    background-color: #6b077c;
+}
 .option, .active {
     padding-top: 39px;
     padding-bottom: 39px;
