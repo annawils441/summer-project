@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Register</title>
-        <link rel="stylesheet" href="static/css/styles.css">
+        <link rel="stylesheet" href="static/css/details.css">
     </head>
     <body>
         <header>
@@ -15,6 +15,60 @@
                 <hr>
             </div>
         </header>
+
+        <h1 class="register_title">Register</h1>
+        <div class="flex_container">
+            <form class="registration_form">
+                <div class="flex_child">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname"> <br>
+                </div>
+                <div class="flex_child">
+                    <label for="age">Age:</label>
+                    <input type="number" id="age"> <br>
+                </div>
+                <div class="flex_child">
+                    <label for="gender">Gender:</label>
+                    <label><input type="radio" name="gender" value="female">Female</label>
+                    <label><input type="radio" name="gender" value="male">Male</label>
+                    <label><input type="radio" name="gender" value="nonbinary">Nonbinary</label>
+                    <label><input type="radio" name="gender" value="prefernottosay">Prefer not to say</label> <br>
+                </div>
+                <div class="flex_child">
+                    <label for="emergency">Emergency Tel No:</label>
+                    <input type="text" id="emergency"> <br>
+                </div>
+                <div class="flex_child">
+                    <label for="grade">Grade Level:</label>
+                    <select name="grade" id="grade">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select><br>
+                </div>
+                <div class="flex_child">
+                    <label for="notes">Additional Information:</label>
+                    <textarea id="notes" name="notes"></textarea><br>
+                </div>
+                <div class="flex_child">
+                    <label for="email">Email Address:</label>
+                    <input type="text" id="email"><br>
+                </div>
+                <div class="flex_child">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username"><br>
+                </div>
+                <div class="flex_child">
+                    <label for="pwd">Password:</label>
+                    <input type="password" id="pwd"><br>
+                </div>
+                <div class="flex_child">
+                    <button class="submit_button">Submit</button>
+                </div>    
+            </form>
+        </div>
 
 
 
