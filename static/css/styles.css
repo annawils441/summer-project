@@ -166,3 +166,12 @@ div.announcements_box, div.announcements_box a {
     text-align: center;
     font-size: 1.3em
 }
+
+div.center_div_confirm {
+    padding: 10px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
