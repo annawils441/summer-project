@@ -10,13 +10,16 @@ a {
 .topnav {
     display: flex;
     background-color: #243D80;
-    
+    height: 100px;
+    align-items: center;
 }
 
 .topnav a {
     color: white;
 }
 .option, .active {
+    padding-top: 39px;
+    padding-bottom: 39px;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -103,4 +106,59 @@ h1 {
     content: "";
     clear: both;
     display: table;
+}
+
+div.contact_box, div.contact_box a {
+    background-color: #0077b6;
+    color: white;
+}
+
+div.announcements_box, div.announcements_box a {
+    background-color: #8dbfda;
+    color:white;
+}
+
+.flex_container {
+    display: flex;
+}
+
+.flex_child {
+    flex: 1;
+    border: 2px solid black;
+}
+
+.flex_child:first-child {
+    margin-right: 10px;
+}
+
+.pumpkin_image {
+    float: right;
+    width: 200px;
+    height: 200px;
+}
+
+.announcements_text {
+    font-size: 35px;
+}
+
+.contact_text {
+    font-size: 30px;
+}
+
+.secret_box {
+    padding: 10px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.back_button {
+    background-color: #00cec8;
+    border: 3px solid black;
+    color: black;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    font-size: 1.3em
 }
