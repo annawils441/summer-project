@@ -40,6 +40,10 @@ def timetable_grade():
 def halloween_page():
     return render_template('halloween.html')
 
+@app.routr('/register/confirmation')
+def reg_confirmation_page():
+    return render_template('reg-confirmation.html')
+
 if __name__ == '__main__':
     app.run(debug=True)
 
