@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Login</title>
-        <link rel="stylesheet" href="static/css/styles.css">
+        <link rel="stylesheet" href="static/css/details.css">
     </head>
     <body>
         <header>
@@ -16,6 +16,36 @@
             </div>
         </header>
 
+        <h1 class="login_title">Login</h1>
+        <div class="flex_container">
+            <form class="login_form">
+                <div class="flex_child">
+                    <label for="usernameoremail">Username/Email:</label>
+                    <input type="text" id="usernameoremail"> <br>
+                </div>
+                <div class="flex_child">
+                    <label for="pwd">Password:</label>
+                    <input type="password" id="pwd"><br>
+                </div>
+                <div class="flex_child">
+                    <label for="remember_me">Remember Me?</label>
+                    <input type="checkbox" id="remember_me"><br>
+                </div>
+                <div class="flex_child">
+                    <button class="login_button"><a href="http://127.0.0.1:5000/login/confirmation">Submit</a></button>
+                </div>
+            </form>
+        </div>
+
+        <div class="flex_container2">
+            <div class="flex_child">
+                <h2 class="reg_text">Need to create an account?<br>Click the Register button below.</h2>
+            </div>
+            <div class="flex_child">
+                <button id="register_button"><a href="http://127.0.0.1:5000/register">Register</a></button>
+            </div>
+        </div>
+        
 
 
     </body>
