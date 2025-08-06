@@ -18,10 +18,10 @@
 
         <h1 class="login_title">Login</h1>
         <div class="flex_container">
-            <form class="login_form">
+            <form class="login_form" action="/submit" method="POST">
                 <div class="flex_child">
                     <label for="usernameoremail">Username/Email:</label>
-                    <input type="text" id="usernameoremail"> <br>
+                    <input type="text" id="usernameoremail" value="{{usernameoremail}}"> <br>
                 </div>
                 <div class="flex_child">
                     <label for="pwd">Password:</label>
@@ -32,7 +32,7 @@
                     <input type="checkbox" id="remember_me"><br>
                 </div>
                 <div class="flex_child">
-                    <button class="login_button"><a href="http://127.0.0.1:5000/login/confirmation">Submit</a></button>
+                    <button class="login_button"><a href="http://127.0.0.1:5000/login/confirmation">Submit</a></button> 
                 </div>
             </form>
         </div>
