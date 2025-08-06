@@ -44,6 +44,10 @@ def halloween_page():
 def reg_confirmation_page():
     return render_template('reg-confirmation.html')
 
+@app.route('/login/confirmation')
+def login_confirmation_page():
+    return render_template('login-confirmation.html')
+
 if __name__ == '__main__':
     app.run(debug=True)
 
