@@ -102,11 +102,12 @@ button:hover {
 .flex_container2 {
     padding: 10px;
     position:absolute;
-    top: 62%;
-    left: 36%;
+    left: 50%;
+    top: 60%;
     border: 2px solid black;
     background-color: #5c79c7a5;
     box-shadow: 10px 10px 5px grey;
+    transform: translate(-50%, 0);
 }
 
 
