@@ -182,3 +182,29 @@ div.center_div_confirm {
     transform: translate(-50%, -50%);
     text-align: center;
 }
+
+.container {
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    gap: 10px;
+}
+
+.container_item {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.coach {
+    background-color: #0077b6;
+}
+
+.learner {
+    background-color: #378cba;
+}
+
+.coach_img, .learner_img {
+    width: 300px;
+    height: 200px;
+}
