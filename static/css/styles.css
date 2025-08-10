@@ -164,7 +164,14 @@ div.announcements_box, div.announcements_box a {
     padding: 10px;
     display: inline-block;
     text-align: center;
-    font-size: 1.3em
+    font-size: 1.3em;
+    transition: background-color 1s linear;
+}
+
+.back_button:hover {
+    background-color: #04a39ee6;
+    text-decoration: underline;
+
 }
 
 div.center_div_confirm {
